@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "lorem 1",
+      "country": "France",
+      "region": "bordoux",
+      "description": "something",
+      "producer": "ad"
+    },
+    {
+      "id": 2,
+      "name": "lorem 2",
+      "country": "Denmark",
+      "region": "bordoux",
+      "description": "something",
+      "producer": "ad"
+    },
+    {
+      "id": 3,
+      "name": "lorem 3",
+      "country": "Italy",
+      "region": "bordoux",
+      "description": "something",
+      "producer": "ad"
+    }
+  ]
+}

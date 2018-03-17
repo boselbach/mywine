@@ -1,0 +1,10 @@
+.textarea {
+  display: flex;
+  flex-direction: column;
+
+  textarea {
+
+    height: 100px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,12 @@
+@import './reset.scss';
+
+html,
+body,
+#app {
+  height: 100%;
+  font-family: 'Courier New', Courier, monospace
+}
+
+body {
+  background-color: #dedede;
+}

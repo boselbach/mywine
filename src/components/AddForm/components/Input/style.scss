@@ -1,0 +1,17 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+
+  &.error {
+    input {
+      background-color: #FFD2D2;
+    }
+  }
+
+  input {
+    height: 20px;
+    border: 1px solid grey;
+    outline: none;
+  }
+}
