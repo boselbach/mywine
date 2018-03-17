@@ -2,27 +2,30 @@
   "data": [
     {
       "id": 1,
-      "name": "lorem 1",
+      "name": "Donna Marianna",
       "country": "France",
       "region": "bordoux",
-      "description": "something",
-      "producer": "ad"
+      "description": "This red wine is ruby red with an intense nose of spices and red fruits. it has a high tannin level, and yet it is still quite smooth in the mouth with a persisting taste.",
+      "year": "2008",
+      "price": "50kr."
     },
     {
       "id": 2,
-      "name": "lorem 2",
+      "name": "ALKÉ NERO D’AVOLA",
       "country": "Denmark",
-      "region": "bordoux",
-      "description": "something",
-      "producer": "ad"
+      "region": "nero d' avola",
+      "description": "This wine has seen only steel and bottle, so it keeps its floral and fruity freshness.",
+      "year": "2013",
+      "price": "63kr"
     },
     {
       "id": 3,
-      "name": "lorem 3",
+      "name": "CONTE",
       "country": "Italy",
       "region": "bordoux",
-      "description": "something",
-      "producer": "ad"
+      "description": "this red wine is aged in steel. it is a biological winery located in marche, they harvest by hand and their wines are natural.",
+      "year": "2015",
+      "price": "95kr."
     }
   ]
 }
