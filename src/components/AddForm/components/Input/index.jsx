@@ -43,7 +43,6 @@ class Input extends PureComponent {
         <input
           name={name}
           type={type} 
-          value={value || ''}
           onChange={this.handleChange}
         /> 
       </div>

@@ -73,7 +73,6 @@ class AddForm extends PureComponent {
               type="text"
               change={this.handleChange}
               error={error}
-              value={country}
             />
             <Input 
               name="region"
