@@ -8,8 +8,8 @@ class WineItem extends PureComponent {
       name: PropTypes.string,
       country: PropTypes.string,
       region: PropTypes.string,
-      grapes: PropTypes.string,
-      producer: PropTypes.string
+      year: PropTypes.string,
+      description: ''
     })
   }
 
@@ -17,6 +17,8 @@ class WineItem extends PureComponent {
     name: '',
     country: '',
     region: '',
+    price: '',
+    year: '',
     description: ''
   }
 
@@ -38,6 +40,7 @@ class WineItem extends PureComponent {
         country,
         region,
         price,
+        year,
         description
       }
     } = this.props;
@@ -69,6 +72,11 @@ class WineItem extends PureComponent {
             <div className="item">
               <p>Price:</p>
               <p>{price}</p>
+            </div>
+
+            <div className="item">
+              <p>Year:</p>
+              <p>{year}</p>
             </div>
 
             <div className="item">

@@ -10,6 +10,7 @@ class AddForm extends PureComponent {
     region: false,
     description: false,
     price: false,
+    year: false,
     error: false
   }
 
@@ -82,6 +83,12 @@ class AddForm extends PureComponent {
             />
             <Input 
               name="price"
+              type="text"
+              change={this.handleChange}
+              error={error}
+            />
+            <Input 
+              name="year"
               type="text"
               change={this.handleChange}
               error={error}
